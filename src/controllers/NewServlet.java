@@ -28,10 +28,7 @@ public class NewServlet extends HttpServlet {
         Task m = new Task();
 
         // mの各フィールドにデータを代入
-        String title = "taro";
-        m.setTitle(title);
-
-        String content = "hello";
+        String content = "English";
         m.setContent(content);
 
         Timestamp currentTime = new Timestamp(System.currentTimeMillis());     // 現在の日時を取得
